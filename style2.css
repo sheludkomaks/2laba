@@ -1,0 +1,44 @@
+td.d:hover {
+	background:green;
+	
+}
+table.a{
+ border-spacing: 7px 11px;
+ border: 1px solid #399; 
+    border-spacing: 6px 7px; 
+   }
+td {
+    background: white; 
+    border: 1px solid #333; 
+    padding: 10px; 
+}
+
+.second_task_item{
+    color: #ff6a00;
+}
+.second_task_item p{
+    padding-left: 10px;
+}
+.second_task_item::before{
+    position: absolute;
+    font-weight: 900;
+
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+}
+
+.second_task_second{
+    width: 200px;
+    background: #f9f4cb;
+
+    padding: 6px;
+    border-left: 2px solid blue;
+}
+
+.second_task_second p:before{
+    content: "«";
+    margin-right: 10px;
+}
+.second_task_second p:after{
+    content: "»";
+    margin-left: 10px;
+}
